@@ -125,7 +125,7 @@ const Pros = () => {
             The pros significantly outweigh the cons. Memory Lift delivers on its promises with minimal drawbacks.
           </p>
           <Button
-            onClick={() => window.open('https://healthcareteam.online/mlt-tsl-cart-aff-fr150-4b-pa/?afid=7QxNTjlbQU', '_blank')}
+            onClick={() => window.open('https://brainhealthfocus.online/mlt-tsl-cart-aff-fr150-4b-pa/?afid=7QxNTjlbQU', '_blank')}
             className="bg-white text-blue-600 hover:bg-slate-100 px-8 py-6 text-lg rounded-lg font-semibold shadow-lg hover:shadow-xl transition-all duration-300"
           >
             Try Memory Lift Risk-Free

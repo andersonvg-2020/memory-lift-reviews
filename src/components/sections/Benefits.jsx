@@ -130,7 +130,7 @@ const Benefits = () => {
                 <p className="text-lg text-blue-100">Average Time to See Results</p>
               </div>
               <Button
-                onClick={() => window.open('https://healthcareteam.online/mlt-tsl-cart-aff-fr150-4b-pa/?afid=7QxNTjlbQU', '_blank')}
+                onClick={() => window.open('https://brainhealthfocus.online/mlt-tsl-cart-aff-fr150-4b-pa/?afid=7QxNTjlbQU', '_blank')}
                 className="bg-white text-blue-600 hover:bg-slate-100 px-8 py-6 text-lg rounded-lg font-semibold shadow-xl hover:shadow-2xl transition-all duration-300"
               >
                 Start Your Transformation

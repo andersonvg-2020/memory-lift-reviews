@@ -95,7 +95,7 @@ const Conclusion = () => {
           </div>
 
           <Button
-            onClick={() => window.open('https://healthcareteam.online/mlt-tsl-cart-aff-fr150-4b-pa/?afid=7QxNTjlbQU', '_blank')}
+            onClick={() => window.open('https://brainhealthfocus.online/mlt-tsl-cart-aff-fr150-4b-pa/?afid=7QxNTjlbQU', '_blank')}
             className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 text-white px-12 py-6 text-xl rounded-lg font-bold shadow-2xl hover:shadow-3xl transition-all duration-300 transform hover:scale-105"
           >
             Get Memory Lift Now - 60-Day Guarantee
