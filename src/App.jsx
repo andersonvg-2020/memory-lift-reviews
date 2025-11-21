@@ -49,6 +49,20 @@ function App() {
           </div>
         </footer>
       </div>
+            <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white flex flex-col">
+        <Header />
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/terms" element={<Terms />} />
+            <Route path="/privacy" element={<Privacy />} />
+            <Route path="/disclaimer" element={<Disclaimer />} />
+          </Routes>
+        </main>
+        <Footer />
+        <Toaster />
+      </div>
+
       
       <Toaster />
     </>
