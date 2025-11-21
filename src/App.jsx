@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import Navigation from '@/components/Navigation';
@@ -19,12 +18,15 @@ function App() {
     <>
       <Helmet>
         <title>Memory Lift Review 2025 - Does It Really Work? Honest Analysis</title>
-        <meta name="description" content="Comprehensive Memory Lift supplement review for 2025. Discover ingredients, benefits, side effects, and real user experiences. Is Memory Lift worth your investment?" />
+        <meta
+          name="description"
+          content="Comprehensive Memory Lift supplement review for 2025. Discover ingredients, benefits, side effects, and real user experiences. Is Memory Lift worth your investment?"
+        />
       </Helmet>
-      
+
       <div className="min-h-screen bg-gradient-to-b from-slate-50 to-white">
         <Navigation />
-        
+
         <main className="pt-20">
           <Hero />
           <WhatIs />
@@ -40,6 +42,29 @@ function App() {
 
         <footer className="bg-slate-900 text-white py-12 mt-20">
           <div className="container mx-auto px-4 text-center">
+
+            {/* LINKS DE TERMS / PRIVACY / DISCLAIMER */}
+            <div className="flex justify-center space-x-6 mb-6">
+              <a
+                href="/terms"
+                className="text-slate-300 hover:text-white transition-colors text-sm"
+              >
+                Terms
+              </a>
+              <a
+                href="/privacy"
+                className="text-slate-300 hover:text-white transition-colors text-sm"
+              >
+                Privacy
+              </a>
+              <a
+                href="/disclaimer"
+                className="text-slate-300 hover:text-white transition-colors text-sm"
+              >
+                Disclaimer
+              </a>
+            </div>
+
             <p className="text-slate-400 mb-4">
               Disclaimer: This is a review website. Results may vary. Consult your healthcare provider before starting any supplement.
             </p>
@@ -49,7 +74,7 @@ function App() {
           </div>
         </footer>
       </div>
-      
+
       <Toaster />
     </>
   );
